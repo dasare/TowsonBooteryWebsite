@@ -1,7 +1,4 @@
-body{
-    font-family: "Times New Roman", Times, serif;
-}
-/* Start header */
+/* Put all styling in application.css too this document is for informational  and documentation purposes only.*/
 header{
     position: absolute;
     top:0;
@@ -45,4 +42,3 @@ header #Nav nav ul li a:hover{
 header #Nav nav ul li a:active{
     background-color: #111;
 }
-/* End header */
