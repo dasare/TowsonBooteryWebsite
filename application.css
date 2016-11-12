@@ -1,0 +1,44 @@
+body{
+    font-family: "Times New Roman";
+}
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: aqua;
+}
+header #Logo{
+    margin-left:20%;
+}
+header #Nav nav{
+    background-color: #111111;
+}
+header #Nav nav ul{
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    width:100%;
+}
+header #Nav nav ul li{
+    display: inline;
+    list-style: none;
+}
+
+header #Nav nav ul li a{
+    display:inline-block;
+    margin-right: -.5%;
+    width:10%;
+    font-weight:bold;
+    font-size: 100%;
+    color:#FFFFFF;
+    background-color:#98bf21;
+    text-align:center;
+    text-decoration:none;
+}
+header #Nav nav ul li a:hover{
+    background-color: #111;
+}
+header #Nav nav ul li a:active{
+    background-color: #111;
+}
