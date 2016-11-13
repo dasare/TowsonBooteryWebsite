@@ -20,15 +20,17 @@ header{
 }
 .Nav nav ul{
     margin: 0;
-    padding: 0;
-    text-align:center;
-    width:100%;
+    padding-left: 35%;
+    overflow: hidden;
+    background-color: #111;
+}
+li{
+    float: left;
 }
 .Nav nav ul li{
     display: inline;
     list-style: none;
 }
-
 li a, .dropbtn {
     display: inline-block;
     color: white;
@@ -49,9 +51,7 @@ li.dropdown {
     display: none;
     position: absolute;
     background-color: #111;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    margin-left: 43.83%;
+    min-width: 11%;
 }
 
 .dropdown-content a {
