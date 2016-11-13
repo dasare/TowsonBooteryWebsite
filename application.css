@@ -9,26 +9,28 @@ header{
     width: 100%;
     background-color: aqua;
 }
-header #Logo{
+.Logo{
     margin-left:20%;
 }
-header #Nav nav{
-    background-color: #111111;
+.Nav nav{
+    background-color: #111;
 }
-header #Nav nav ul{
+.Nav nav li ul {
+    display: none;
+}
+.Nav nav ul{
     margin: 0;
     padding: 0;
     text-align:center;
     width:100%;
 }
-header #Nav nav ul li{
+.Nav nav ul li{
     display: inline;
     list-style: none;
 }
 
-header #Nav nav ul li a{
+.Nav nav ul li a{
     display:inline-block;
-    margin-right: -.5%;
     width:11%;
     font-weight:bold;
     font-size: 125%;
@@ -39,10 +41,57 @@ header #Nav nav ul li a{
     text-align:center;
     text-decoration:none;
 }
-header #Nav nav ul li a:hover{
-    background-color: #939290;
+.Nav nav ul li a:hover {
+    background: #f00;
 }
-header #Nav nav ul li a:active{
+/*.Nav nav{
     background-color: #111;
 }
+.Nav nav ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.Nav nav ul li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    padding-left: 1%;
+}
+.Nav nav li ul {
+    display: none;
+}
+.Nav nav ul li a {
+    display: inline-block;
+    width:100%;
+    font-weight:bold;
+    font-size: 125%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left:1%;
+    color:#FFF;
+    background-color:#111;
+    text-align:center;
+    text-decoration:none;
+}
+.Nav nav ul li a:hover {
+    background: #f00;
+}
+.Nav nav li:hover ul {
+    display: block;
+    position: absolute;
+}
+.Nav nav li:hover li {
+    float: none;
+}
+.Nav nav li:hover a {
+    background: #111;
+}
+.Nav nav li:hover li a:hover {
+    background: #f00;
+}
+.Nav nav #drop-nav li ul li {
+    border-top: 0;
+}*/
 /* End header */

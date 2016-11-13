@@ -1,44 +1,12 @@
 /* Put all styling in application.css too this document is for informational  and documentation purposes only.*/
-header{
-    position: absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    background-color: aqua;
-}
-header #Logo{
-    margin-left:20%;
-}
-header #Nav nav{
-    background-color: #111111;
-}
-header #Nav nav ul{
-    margin: 0;
-    padding: 0;
-    text-align:center;
-    width:100%;
-}
-header #Nav nav ul li{
-    display: inline;
-    list-style: none;
-}
-
-header #Nav nav ul li a{
-    display:inline-block;
-    margin-right: -.5%;
-    width:11%;
-    font-weight:bold;
-    font-size: 125%;
-    padding-bottom: 1%;
-    padding-top: 1%;
-    color:#FFF;
-    background-color:#111;
-    text-align:center;
-    text-decoration:none;
-}
-header #Nav nav ul li a:hover{
-    background-color: #939290;
-}
-header #Nav nav ul li a:active{
-    background-color: #111;
-}
+ul {list-style: none;padding: 0px;margin: 0px;}
+ul li {display: block;position: relative;float: left;border:1px solid #000}
+li ul {display: none;}
+ul li a {display: block;background: #000;padding: 5px 10px 5px 10px;text-decoration: none;
+    white-space: nowrap;color: #fff;}
+ul li a:hover {background: #f00;}
+li:hover ul {display: block; position: absolute;}
+li:hover li {float: none;}
+li:hover a {background: #f00;}
+li:hover li a:hover {background: #000;}
+#drop-nav li ul li {  border-top: 0px;  }
