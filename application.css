@@ -7,16 +7,19 @@ header{
     top:0;
     left:0;
     width: 100%;
-    background-color: aqua;
+    background-color: burlywood;
 }
-.Logo{
-    margin-left:20%;
+.Logo h1{
+    font-size: 300%;
+    margin-left: 18.5%;
+}
+.Logo h3{
+    position: absolute;
+    top: 38%;
+    margin-left: 20%;
 }
 .Nav nav{
     background-color: #111;
-}
-.Nav nav li ul {
-    display: none;
 }
 .Nav nav ul{
     margin: 0;
@@ -29,69 +32,44 @@ header{
     list-style: none;
 }
 
-.Nav nav ul li a{
-    display:inline-block;
-    width:11%;
-    font-weight:bold;
-    font-size: 125%;
-    padding-bottom: 1%;
-    padding-top: 1%;
-    color:#FFF;
-    background-color:#111;
-    text-align:center;
-    text-decoration:none;
-}
-.Nav nav ul li a:hover {
-    background: #f00;
-}
-/*.Nav nav{
-    background-color: #111;
-}
-.Nav nav ul {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-.Nav nav ul li {
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
     display: inline-block;
-    list-style: none;
-    position: relative;
-    padding-left: 1%;
 }
-.Nav nav li ul {
+
+.dropdown-content {
     display: none;
-}
-.Nav nav ul li a {
-    display: inline-block;
-    width:100%;
-    font-weight:bold;
-    font-size: 125%;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    padding-left:1%;
-    color:#FFF;
-    background-color:#111;
-    text-align:center;
-    text-decoration:none;
-}
-.Nav nav ul li a:hover {
-    background: #f00;
-}
-.Nav nav li:hover ul {
-    display: block;
     position: absolute;
+    background-color: #111;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 43.83%;
 }
-.Nav nav li:hover li {
-    float: none;
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
-.Nav nav li:hover a {
-    background: #111;
+
+.dropdown-content a:hover {
+    background-color: red
 }
-.Nav nav li:hover li a:hover {
-    background: #f00;
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
-.Nav nav #drop-nav li ul li {
-    border-top: 0;
-}*/
-/* End header */
+/*End header
